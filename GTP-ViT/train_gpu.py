@@ -509,7 +509,7 @@ def main(args):
     if args.eval:
         MACs = get_macs(model_without_ddp, None, args.input_size)
         print('GMACs:', MACs * 1e-9)
-        test_stats = evaluate(data_loader_val, model, device)
+        test_stats = evaluate(data_loader_val, model, device, args)
         print(f"Accuracy of the network on the {len(dataset_val)} test images: {test_stats['acc1']:.1f}%")
 
         with open(args.model+"_results", "a") as fp:
