@@ -591,9 +591,9 @@ def main(args):
     print('Training time {}'.format(total_time_str))
 
     # plot ROC curve and confusion matrix
-    # print('*******************STARTING PREDICT*******************')
-    # Predictor(model_without_ddp, data_loader_val, f'{args.output_dir}/best_checkpoint.pth', device)
-    # Plot_ROC(model_without_ddp, data_loader_val, f'{args.output_dir}/best_checkpoint.pth', device)
+    print('*******************STARTING PREDICT*******************')
+    Predictor(model_without_ddp, data_loader_val, f'{args.output_dir}/best_checkpoint.pth', device)
+    Plot_ROC(model_without_ddp, data_loader_val, f'{args.output_dir}/best_checkpoint.pth', device)
 
 
 if __name__ == '__main__':
