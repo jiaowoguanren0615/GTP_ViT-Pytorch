@@ -1,7 +1,7 @@
-# GTP-ViT: Efficient Vision Transformers via Graph-based Token Propagation (https://arxiv.org/pdf/2311.03035.pdf)
+# [GTP-ViT: Efficient Vision Transformers via Graph-based Token Propagation](https://arxiv.org/pdf/2311.03035.pdf)
 
 ## STATEMENT
-This is a warehouse for GTP-ViT-pytorch-model, The code is mainly derived from the official source code (https://github.com/Ackesnal/GTP-ViT) and modified based on it. It can now be applied to train your own image datasets.
+This is a warehouse for GTP-ViT-pytorch-model, The code is mainly derived from the official [source code](https://github.com/Ackesnal/GTP-ViT) and modified based on it. It can now be applied to train your own image datasets.
 
 ## Install Packages
 ### <1>torchprofile
